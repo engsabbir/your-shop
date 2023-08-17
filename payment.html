@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shop | Payment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body class="max-w-screen-xl border border-black mx-auto">
+    <header class="mt-10">
+        <h1 class="text-5xl text-center">Welcome to my <span class="font-medium text-amber-600">Shop!</span></h1>
+    </header>
+    <main class="max-w-screen-xl border border-black mx-auto flex">
+        <section class="w-3/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:justify-evenly ">
+            <div class="">
+                <input id="bkash" name="payment-method" type="radio">
+                <label for="bkash">BKash</label>
+            </div>
+            <div class="p-3 bg-gray-200 rounded">
+                <input id="nagad" name="payment-method" type="radio">
+                <label for="nagad">NAGAD</label>
+            </div>
+            <div>
+                <input id="visa-card" name="payment-method" type="radio">
+                <label for="visa-card">VISA CARD</label>
+            </div>
+            <div>
+                <input id="master-card" name="payment-method" type="radio">
+                <label for="master-card">MASTER CARD</label>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1>Your Total charge is :</h1>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
